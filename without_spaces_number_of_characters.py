@@ -1,8 +1,4 @@
 n=input()
-c=0
-for i in n:
-    if i==' ':
-        pass
-    else:
-        c+=1
-print(c)
+s=n.split(' ')
+le=len(s)-1
+print(len(n)-le)
